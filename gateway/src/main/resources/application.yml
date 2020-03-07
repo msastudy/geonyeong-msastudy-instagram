@@ -1,0 +1,6 @@
+server:
+  port: 9090
+instagram:
+  clone:
+    gateway:
+      baseUrl: http://localhost:7070/api/v1/

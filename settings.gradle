@@ -1,0 +1,15 @@
+rootProject.name = 'clone'
+
+include 'common'
+
+include 'gateway'
+
+include 'user-query'
+
+include 'user-command'
+
+include 'relation-query'
+
+include 'relation-command'
+
+include 'notification'

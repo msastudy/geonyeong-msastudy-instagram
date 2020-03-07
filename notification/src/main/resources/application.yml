@@ -1,0 +1,8 @@
+server:
+  port: 8080
+axon:
+  axonserver:
+    servers: dev-geon-axonserver-ncl.nfra.io:8124
+spring:
+  application:
+    name: notification

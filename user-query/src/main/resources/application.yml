@@ -1,0 +1,19 @@
+server:
+  port: 6060
+spring:
+  application:
+    name: user-query
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/instagram
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+axon:
+  axonserver:
+    servers: dev-geon-axonserver-ncl.nfra.io:8124
